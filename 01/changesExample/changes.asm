@@ -14,7 +14,7 @@ _start:
    mov rax, 1
    mov rdi, 1
    mov rsi, strOla
-   mov edx, strOlaL
+   mov edx, strNomeL
    syscall
 
    mov rax, 60
@@ -25,7 +25,8 @@ _start:
 ; Documentação
 ; 1) Ao tirar o default start: ld: warning: cannot find entry symbol _start; defaulting to 0000000000401000
 ; 2) lea sem parênteses = mov com parênteses
+;  mov leva o ponteiro. lea leva o conteúdo, sempre com colchetes
 ; 3) Ao comentar mov edx, não printa nada
 ; 4) mov com número printa um certo número de caracteres
-; 5) sem syscall, nada ocorre
+; 5) sem syscall, não imprimiu
 ; 6) rdi 5 é o return 0

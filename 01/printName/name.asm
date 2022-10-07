@@ -5,7 +5,7 @@
 ; sugestão: nasm -f elf64 hello.asm && ld hello.o -o hello.x
 
 section .data
-   strNome :  db "Marlon", 10
+   strNome :  db "Marlon", 0x20, 0x61, 0x62, 10
    strNomeL:  equ $ - strNome
 
 section .text
