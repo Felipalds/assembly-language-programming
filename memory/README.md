@@ -40,3 +40,7 @@ Pressure on Register (compilers)
 ## MOV
 
 MOV destino, fonte
+
+## RDX
+- ao inserir 4 bytes edx em um rdx, ele não só sobrescreve, mas apaga o resto (reseta)
+- podemos mover (LEA) o conteúdo das LABELS!! (_start, fim, etc) -> conteúdo será endereço delas
