@@ -17,8 +17,10 @@ section .data
 
 section .text
     global _start
+    use64             ; use64 if you create 64bit code
+    global _main      ; export the symbol so ld can find it
 
-_start:
+_main:
     ; não executa acoes, por enquanto!
 fim:
     mov rax, 60
