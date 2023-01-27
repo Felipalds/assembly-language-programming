@@ -40,3 +40,5 @@
 - _start é o padrão de início, primeira instrução à ser executada (main)
 - .data ('variáveis')
 - .text (código)
+
+## ArchLinux Rocks!!! 
