@@ -42,3 +42,6 @@
 - .text (código)
 
 ## ArchLinux Rocks!!! 
+- https://corpglory.github.io/vsvg/
+- https://turingmachinesimulator.com/
+- https://plato.stanford.edu/entries/turing-machine/#:~:text=Turing%20machines%2C%20first%20described%20by,the%20computing%20of%20real%20numbers.
